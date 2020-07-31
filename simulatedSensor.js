@@ -20,6 +20,18 @@ Sensor.prototype.read = function (callback) {
   });
 }
 
+Sensor.prototype.write=function (data) {
+  // nothing todo
+  port.write(data, function(err) {
+    if (err) {
+      return console.log('Error en escritura ', err.message)
+    }
+    console.log(data)
+  })
+}
+
+
+
 function random(min, max) {
   return Math.random() * (max - min) + min;
 }
