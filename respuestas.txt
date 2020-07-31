@@ -1,0 +1,201 @@
+la respuesta es AT
+la respuesta es OK
+la respuesta es ATV1
+la respuesta es OK
+Sending message: {"messageId":1,"deviceId":"Raspberry Pi Node","Lora":"0","rssiLora":"-64\r","timeCapLora":"2020-07-15 08:23:18.700"}
+Message sent to Azure IoT Hub
+noble: unknown peripheral 987bf37515dd connected!
+comado AT+QGPS=1
+la respuesta es AT+QGPS=1
+la respuesta es +CME ERROR: Session is ongoing
+0
+-71
+0
+-72
+0
+-72
+-26
+Potenciometro: 0
+0
+-72
+-26
+Potenciometro: 0
+0
+-73
+0
+-73
+0
+-73
+0
+-73
+-24
+Potenciometro: 0
+0
+-73
+-27
+Potenciometro: 0
+0
+-73
+0
+-73
+Sending message: {"messageId":2,"deviceId":"Raspberry Pi Node","Lora":"0","Particle":0,"rssiParticle":-27,"rssiLora":"-73\r","timeCapLora":"2020-07-15 08:23:34.197","timeCapParticle":"2020-07-15 08:23:31.811"}
+Message sent to Azure IoT Hub
+comado ATI
+la respuesta es ATI
+la respuesta es Quectel
+la respuesta es EC20
+la respuesta es Revision: EC20AQAR02A03E2G
+la respuesta es 
+la respuesta es OK
+-27
+Potenciometro: 0
+0
+-73
+0
+-73
+0
+-73
+-23
+Potenciometro: 0
+0
+-73
+0
+-73
+-24
+Potenciometro: 0
+0
+-73
+0
+-73
+-25
+Potenciometro: 0
+0
+-73
+0
+-73
+-27
+Potenciometro: 0
+0
+-73
+0
+-73
+Sending message: {"messageId":3,"deviceId":"Raspberry Pi Node","Lora":"0","Particle":0,"rssiParticle":-27,"rssiLora":"-73\r","timeCapLora":"2020-07-15 08:23:49.343","timeCapParticle":"2020-07-15 08:23:47.174"}
+Message sent to Azure IoT Hub
+comado AT+CSQ
+la respuesta es AT+CSQ
+la respuesta es +CSQ: 23,99
+la respuesta es 
+la respuesta es OK
+-25
+Potenciometro: 0
+0
+-73
+0
+-73
+-26
+Potenciometro: 0
+0
+-73
+0
+-74
+0
+-74
+-27
+Potenciometro: 0
+0
+-73
+0
+-74
+-28
+Potenciometro: 0
+0
+-73
+0
+-73
+-28
+Potenciometro: 0
+0
+-73
+0
+-73
+-27
+Potenciometro: 0
+Sending message: {"messageId":4,"deviceId":"Raspberry Pi Node","Lora":"0","Particle":0,"rssiParticle":-27,"rssiLora":"-73\r","timeCapLora":"2020-07-15 08:24:04.486","timeCapParticle":"2020-07-15 08:24:04.927"}
+Message sent to Azure IoT Hub
+comado AT+QGPSLOC?
+la respuesta es AT+QGPSLOC?
+la respuesta es +QGPSLOC: 012405.0,0435.0117N,07405.1897W,1.3,2623.0,2,0.00,0.0,0.0,301100,06
+la respuesta es 
+la respuesta es OK
+0
+-73
+0
+-74
+-26
+Potenciometro: 0
+0
+-74
+0
+-73
+0
+-73
+-28
+Potenciometro: 0
+0
+-73
+0
+-73
+0
+-74
+-28
+Potenciometro: 0
+0
+-74
+-26
+Potenciometro: 0
+0
+-74
+0
+-74
+-27
+Potenciometro: 0
+Sending message: {"messageId":5,"deviceId":"Raspberry Pi Node","Lora":"0","Particle":0,"rssiParticle":-27,"rssiLora":"-74\r","timeCapLora":"2020-07-15 08:24:19.637","timeCapParticle":"2020-07-15 08:24:20.295"}
+Message sent to Azure IoT Hub
+comado AT+QGPSLOC?
+la respuesta es AT+COPS?
+la respuesta es +COPS: 0,0,"#quedateencasa TIGO",7
+la respuesta es 
+la respuesta es OK
+0
+-73
+0
+-74
+0
+-74
+-23
+Potenciometro: 0
+0
+-74
+-28
+Potenciometro: 0
+0
+-73
+0
+-74
+0
+-74
+-27
+Potenciometro: 0
+0
+-74
+0
+-73
+-26
+Potenciometro: 0
+0
+-73
+0
+-74
+-30
+Potenciometro: 0
+Sending message: {"messageId":6,"deviceId":"Raspberry Pi Node","Lora":"0","Particle":0,"rssiParticle":-30,"rssiLora":"-74\r","timeCapLora":"2020-07-15 08:24:34.778","timeCapParticle":"2020-07
