@@ -6,7 +6,6 @@
 
 const fs = require('fs');
 const path = require('path');
-//const wpi = require('wiring-pi');
 const wpi = require('wiringpi-node');
 const chalk = require('chalk');
 const Client = require('azure-iot-device').Client;
@@ -180,7 +179,7 @@ function onSetColor(request, response) {
   messageProcessor = new MessageProcessor(config);
 
   bi.start();
-  var deviceInfo = {device:"RaspberryPi",language:"NodeJS"};
+  var deviceInfo = {device:"RaspberryPiSolar",language:"NodeJS"};
   if(bi.isBIEnabled()) {
     bi.trackEventWithoutInternalProperties('yes', deviceInfo);
     bi.trackEvent('success', deviceInfo);
@@ -194,7 +193,7 @@ function onSetColor(request, response) {
   // create a client
   // read out the connectionString from process environment
 // connectionString = connectionString || process.env['AzureIoTHubDeviceConnectionString'];
-  connectionString ='HostName=labsolarrasp.azure-devices.net;DeviceId=raspberrylabsolar;SharedAccessKey=bXngGOxasFhighprQZnug33xU7AkMhllpmSl/pV5dQQ=';
+  connectionString ='HostName=labsolarrasp.azure-devices.net;DeviceId=raspberrySolar;SharedAccessKey=5qHz6i6EEwwc3x/cN2bzd4xuwTY2Y9H0TYKF/e+0eoo=';
   client = initClient(connectionString, config);
 
   client.open((err) => {
