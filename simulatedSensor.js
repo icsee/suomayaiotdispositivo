@@ -2,6 +2,17 @@
 * IoT Hub Raspberry Pi NodeJS - Microsoft Sample Code - Copyright (c) 2017 - Licensed MIT
 */
 'use strict';
+const SerialPort = require('serialport');
+const Readline = SerialPort.parsers.Readline;
+//Comunicacion lora
+const port = new SerialPort('/dev/ttyACM0',{baudRate:115200});
+
+
+const parser = new Readline();
+var rssiLo,Temp,timeLora;
+port.pipe(parser);
+var async = require('async');
+const moment = require('moment');
 
 function Sensor(/* options */) {
   // nothing todo
