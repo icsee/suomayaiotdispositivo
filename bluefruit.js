@@ -1,6 +1,6 @@
 var Feather = require("feather-ble");
 
-var possible_feather = some_noble_peripheral_instance;
+var possible_feather = "Bluefruit52";
  
 // Check is peripheral is an adafruit feather
 if (new Feather().isFeather(possible_feather)) {
