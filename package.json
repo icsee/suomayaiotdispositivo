@@ -12,7 +12,7 @@
     "azure-iot-device": "^1.1.7",
     "azure-iot-device-mqtt": "^1.1.7",
     "bme280-sensor": "^0.1.6",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "serialport": "^7.1.5",
     "wiring-pi": "^2.2.1",
     "ble-bean": "^2.1.1",
